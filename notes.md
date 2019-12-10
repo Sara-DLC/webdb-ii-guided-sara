@@ -19,3 +19,8 @@ Update to teach knex how to connect to our DB
 To create a migration type: `knex migrate: make migrationName`
 
 To run a migration type: `knex migrate:latest`
+
+## Seeds
+
+To create a seed: `knex seed:make nameOfSeed`
+To run the seeds: `knex seed:run`
