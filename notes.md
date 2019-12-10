@@ -10,4 +10,12 @@ Migrations keep your DB design in sync with the application code.
 
 Install `knex cli` :  `npm i -g knex`
 
-To create a migration type: 
+Create a knex configuration file (knexfile.js). Type: knex init
+
+Update to teach knex how to connect to our DB
+
+***(this knex file will hold the different configs to connect to database)***
+
+To create a migration type: `knex migrate: make migrationName`
+
+To run a migration type: `knex migrate:latest`
