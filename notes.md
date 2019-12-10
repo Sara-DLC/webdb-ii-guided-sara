@@ -20,6 +20,12 @@ To create a migration type: `knex migrate: make migrationName`
 
 To run a migration type: `knex migrate:latest`
 
+> I need to make a change to the database structure.
+> &mdash; A developer
+
+> Make a new migration!
+> &mdash; The developer's inner voice
+
 ## Seeds
 
 To create a seed: `knex seed:make nameOfSeed`
